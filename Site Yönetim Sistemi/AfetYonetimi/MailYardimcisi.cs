@@ -12,6 +12,7 @@ namespace Site_Yönetim_Sistemi.AfetYonetimi
 {
     public static class MailYardimcisi
     {
+        //smpt settings
         private static readonly string smtpServer = "-----";
         private static readonly int smtpPort = 587;
         private static readonly bool enableSsl = true;
