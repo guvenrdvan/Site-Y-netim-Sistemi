@@ -44,15 +44,8 @@
             this.btnGuncelle = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnDaireSakiniSil = new System.Windows.Forms.Button();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.btnDaireSakiniGuncelle = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,7 +164,7 @@
             this.panel1.Controls.Add(this.txtAd);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.panel1.ForeColor = System.Drawing.Color.Tomato;
-            this.panel1.Location = new System.Drawing.Point(193, 17);
+            this.panel1.Location = new System.Drawing.Point(12, 114);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(299, 345);
             this.panel1.TabIndex = 27;
@@ -233,83 +226,10 @@
             this.label7.TabIndex = 16;
             this.label7.Text = "Cinsiyet :";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.btnDaireSakiniSil);
-            this.panel2.Controls.Add(this.listBox3);
-            this.panel2.Controls.Add(this.btnDaireSakiniGuncelle);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.listBox1);
-            this.panel2.Location = new System.Drawing.Point(516, 17);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(461, 345);
-            this.panel2.TabIndex = 36;
-            // 
-            // btnDaireSakiniSil
-            // 
-            this.btnDaireSakiniSil.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDaireSakiniSil.Location = new System.Drawing.Point(320, 252);
-            this.btnDaireSakiniSil.Name = "btnDaireSakiniSil";
-            this.btnDaireSakiniSil.Size = new System.Drawing.Size(75, 47);
-            this.btnDaireSakiniSil.TabIndex = 44;
-            this.btnDaireSakiniSil.Text = "Seçilen Daire Sakinini Sil";
-            this.btnDaireSakiniSil.UseVisualStyleBackColor = true;
-            this.btnDaireSakiniSil.Click += new System.EventHandler(this.btnDaireSakiniSil_Click);
-            // 
-            // listBox3
-            // 
-            this.listBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
-            this.listBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.listBox3.ForeColor = System.Drawing.Color.White;
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 21;
-            this.listBox3.Location = new System.Drawing.Point(142, 73);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(84, 235);
-            this.listBox3.TabIndex = 43;
-            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // btnDaireSakiniGuncelle
-            // 
-            this.btnDaireSakiniGuncelle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDaireSakiniGuncelle.Location = new System.Drawing.Point(239, 252);
-            this.btnDaireSakiniGuncelle.Name = "btnDaireSakiniGuncelle";
-            this.btnDaireSakiniGuncelle.Size = new System.Drawing.Size(75, 47);
-            this.btnDaireSakiniGuncelle.TabIndex = 42;
-            this.btnDaireSakiniGuncelle.Text = "Daire sakini Güncelle";
-            this.btnDaireSakiniGuncelle.UseVisualStyleBackColor = true;
-            this.btnDaireSakiniGuncelle.Click += new System.EventHandler(this.btnDaireSakiniGuncelle_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.Tomato;
-            this.label2.Location = new System.Drawing.Point(173, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 25);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Daire Sakinleri";
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
-            this.listBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.listBox1.ForeColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 21;
-            this.listBox1.Location = new System.Drawing.Point(27, 73);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(84, 235);
-            this.listBox1.TabIndex = 36;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
             // pictureEdit1
             // 
             this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
-            this.pictureEdit1.Location = new System.Drawing.Point(12, 12);
+            this.pictureEdit1.Location = new System.Drawing.Point(110, 12);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
@@ -323,9 +243,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(989, 396);
+            this.ClientSize = new System.Drawing.Size(327, 477);
             this.Controls.Add(this.pictureEdit1);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Guncelle";
@@ -333,8 +252,6 @@
             this.Load += new System.EventHandler(this.Guncelle_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
@@ -353,15 +270,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnDaireSakiniGuncelle;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.ComboBox cmbCinsiyet;
         private System.Windows.Forms.ComboBox cmbMedeni;
-        private System.Windows.Forms.Button btnDaireSakiniSil;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
     }
 }

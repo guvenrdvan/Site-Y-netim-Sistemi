@@ -72,9 +72,6 @@ namespace Site_Yönetim_Sistemi
 
         }
 
-
-
-
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -98,7 +95,7 @@ namespace Site_Yönetim_Sistemi
                     labelControl2.Text = kl.soyAd;
 
                     textEdit1.Text = kl.dogumTarihi.ToString();
-                    if (kl.cinsiyet == "e")
+                    if (kl.cinsiyet == "E")
                         labelControl4.Text = "Erkek";
                     else
                         labelControl4.Text = "Kadın";
@@ -192,11 +189,6 @@ namespace Site_Yönetim_Sistemi
             uy.ShowDialog();
         }
 
-
-
-
-
-
         private void btnGuncelle_Click_1(object sender, EventArgs e)
         {
 
@@ -215,8 +207,6 @@ namespace Site_Yönetim_Sistemi
             }
             apartmanSakinleri();
         }
-
-
 
         private void pnlBilgiler_Paint(object sender, PaintEventArgs e)
         {
@@ -257,8 +247,6 @@ namespace Site_Yönetim_Sistemi
 
         }
 
-
-
         private void lbKat_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox lb = (ListBox)sender;
@@ -273,8 +261,6 @@ namespace Site_Yönetim_Sistemi
 
 
         }
-
-
 
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -375,26 +361,10 @@ namespace Site_Yönetim_Sistemi
             }
         }
 
-
-
         private void lbMesajAtan_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-
-
-
-
-        private void btnFaturaOlustur_Click(object sender, EventArgs e)
-        {
-
-            faturaOlustur fr = new faturaOlustur(id);
-            fr.ShowDialog();
-        }
-
-
-
-
 
         private void cmbAy_SelectedIndexChanged(object sender, EventArgs e)
         {

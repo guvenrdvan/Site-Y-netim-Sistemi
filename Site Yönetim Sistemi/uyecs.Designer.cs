@@ -292,7 +292,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.ForeColor = System.Drawing.Color.Tomato;
-            this.label18.Location = new System.Drawing.Point(601, 106);
+            this.label18.Location = new System.Drawing.Point(601, 81);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(193, 30);
             this.label18.TabIndex = 30;
@@ -315,7 +315,7 @@
             this.panel2.Controls.Add(this.lblKat);
             this.panel2.Controls.Add(this.lblApartmanAdi);
             this.panel2.Controls.Add(this.lblBlok);
-            this.panel2.Location = new System.Drawing.Point(497, 139);
+            this.panel2.Location = new System.Drawing.Point(497, 121);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(444, 257);
             this.panel2.TabIndex = 29;
@@ -536,7 +536,7 @@
             this.panel1.Controls.Add(this.lblSoyisim);
             this.panel1.Controls.Add(this.lblDogumTarihi);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(119, 139);
+            this.panel1.Location = new System.Drawing.Point(119, 121);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(359, 257);
             this.panel1.TabIndex = 7;
@@ -772,7 +772,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label25.ForeColor = System.Drawing.Color.Tomato;
-            this.label25.Location = new System.Drawing.Point(224, 106);
+            this.label25.Location = new System.Drawing.Point(224, 81);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(149, 30);
             this.label25.TabIndex = 6;
@@ -880,7 +880,7 @@
             this.tabControl1.Controls.Add(this.tabMesaj);
             this.tabControl1.Controls.Add(this.tabFatura);
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tabControl1.Location = new System.Drawing.Point(232, 83);
+            this.tabControl1.Location = new System.Drawing.Point(232, 102);
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.Padding = new System.Drawing.Point(15, 10);

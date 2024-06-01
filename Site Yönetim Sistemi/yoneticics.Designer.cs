@@ -37,7 +37,6 @@
             this.pnlBilgiler = new System.Windows.Forms.Panel();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.label11 = new System.Windows.Forms.Label();
-            this.btnFaturaOlustur = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelControl10 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl9 = new DevExpress.XtraEditors.PanelControl();
@@ -78,7 +77,6 @@
             this.tabApartmanbilgi = new System.Windows.Forms.TabPage();
             this.pnlDaireler = new System.Windows.Forms.Panel();
             this.lbKisiSayisi = new System.Windows.Forms.ListBox();
-            this.btnSakinSil = new System.Windows.Forms.Button();
             this.lbDaireNo = new System.Windows.Forms.ListBox();
             this.lbEvSahibi = new System.Windows.Forms.ListBox();
             this.lblApartman = new System.Windows.Forms.Label();
@@ -111,16 +109,16 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtDuyuru = new System.Windows.Forms.TextBox();
             this.txtDuyuruKonu = new System.Windows.Forms.TextBox();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.lblGuvenlik = new System.Windows.Forms.Label();
             this.btnAyarlar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
-            this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
             this.tabControl1.SuspendLayout();
             this.tabKisiselBilgi.SuspendLayout();
             this.pnlBilgiler.SuspendLayout();
@@ -149,11 +147,11 @@
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tabDuyuruOlustur.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -210,7 +208,6 @@
             this.pnlBilgiler.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlBilgiler.Controls.Add(this.pictureEdit1);
             this.pnlBilgiler.Controls.Add(this.label11);
-            this.pnlBilgiler.Controls.Add(this.btnFaturaOlustur);
             this.pnlBilgiler.Controls.Add(this.panel2);
             this.pnlBilgiler.Controls.Add(this.panel1);
             this.pnlBilgiler.Controls.Add(this.label18);
@@ -244,19 +241,6 @@
             this.label11.Size = new System.Drawing.Size(174, 25);
             this.label11.TabIndex = 30;
             this.label11.Text = "Apartman Bilgileri";
-            // 
-            // btnFaturaOlustur
-            // 
-            this.btnFaturaOlustur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.btnFaturaOlustur.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnFaturaOlustur.ForeColor = System.Drawing.Color.White;
-            this.btnFaturaOlustur.Location = new System.Drawing.Point(888, 366);
-            this.btnFaturaOlustur.Name = "btnFaturaOlustur";
-            this.btnFaturaOlustur.Size = new System.Drawing.Size(126, 29);
-            this.btnFaturaOlustur.TabIndex = 3;
-            this.btnFaturaOlustur.Text = "Fatura Oluştur";
-            this.btnFaturaOlustur.UseVisualStyleBackColor = false;
-            this.btnFaturaOlustur.Click += new System.EventHandler(this.btnFaturaOlustur_Click);
             // 
             // panel2
             // 
@@ -707,7 +691,6 @@
             this.pnlDaireler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
             this.pnlDaireler.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlDaireler.Controls.Add(this.lbKisiSayisi);
-            this.pnlDaireler.Controls.Add(this.btnSakinSil);
             this.pnlDaireler.Controls.Add(this.lbDaireNo);
             this.pnlDaireler.Controls.Add(this.lbEvSahibi);
             this.pnlDaireler.Controls.Add(this.lblApartman);
@@ -737,19 +720,6 @@
             this.lbKisiSayisi.Size = new System.Drawing.Size(133, 291);
             this.lbKisiSayisi.TabIndex = 19;
             this.lbKisiSayisi.SelectedIndexChanged += new System.EventHandler(this.lbKat_SelectedIndexChanged);
-            // 
-            // btnSakinSil
-            // 
-            this.btnSakinSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.btnSakinSil.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSakinSil.ForeColor = System.Drawing.Color.White;
-            this.btnSakinSil.Location = new System.Drawing.Point(10, 335);
-            this.btnSakinSil.Name = "btnSakinSil";
-            this.btnSakinSil.Size = new System.Drawing.Size(126, 51);
-            this.btnSakinSil.TabIndex = 38;
-            this.btnSakinSil.Text = "Apartman Sakini Sil";
-            this.btnSakinSil.UseVisualStyleBackColor = false;
-            this.btnSakinSil.Click += new System.EventHandler(this.btnSakinSil_Click);
             // 
             // lbDaireNo
             // 
@@ -786,7 +756,7 @@
             this.lblApartman.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblApartman.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblApartman.ForeColor = System.Drawing.Color.White;
-            this.lblApartman.Location = new System.Drawing.Point(10, 41);
+            this.lblApartman.Location = new System.Drawing.Point(8, 41);
             this.lblApartman.Name = "lblApartman";
             this.lblApartman.Size = new System.Drawing.Size(68, 32);
             this.lblApartman.TabIndex = 40;
@@ -811,7 +781,7 @@
             this.btnSakinEk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.btnSakinEk.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSakinEk.ForeColor = System.Drawing.Color.White;
-            this.btnSakinEk.Location = new System.Drawing.Point(10, 278);
+            this.btnSakinEk.Location = new System.Drawing.Point(8, 316);
             this.btnSakinEk.Name = "btnSakinEk";
             this.btnSakinEk.Size = new System.Drawing.Size(126, 51);
             this.btnSakinEk.TabIndex = 37;
@@ -836,7 +806,7 @@
             this.btnGuncel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.btnGuncel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncel.ForeColor = System.Drawing.Color.White;
-            this.btnGuncel.Location = new System.Drawing.Point(10, 221);
+            this.btnGuncel.Location = new System.Drawing.Point(8, 259);
             this.btnGuncel.Name = "btnGuncel";
             this.btnGuncel.Size = new System.Drawing.Size(126, 51);
             this.btnGuncel.TabIndex = 35;
@@ -883,7 +853,7 @@
             // pictureEdit3
             // 
             this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
-            this.pictureEdit3.Location = new System.Drawing.Point(10, 95);
+            this.pictureEdit3.Location = new System.Drawing.Point(8, 76);
             this.pictureEdit3.Name = "pictureEdit3";
             this.pictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit3.Properties.Appearance.Options.UseBackColor = true;
@@ -1150,6 +1120,62 @@
             this.txtDuyuruKonu.Size = new System.Drawing.Size(864, 57);
             this.txtDuyuruKonu.TabIndex = 0;
             // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
+            this.tabPage1.Controls.Add(this.pictureEdit7);
+            this.tabPage1.Controls.Add(this.pictureEdit6);
+            this.tabPage1.Controls.Add(this.simpleButton1);
+            this.tabPage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tabPage1.Location = new System.Drawing.Point(4, 36);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1017, 405);
+            this.tabPage1.TabIndex = 7;
+            this.tabPage1.Text = "AFET";
+            // 
+            // pictureEdit7
+            // 
+            this.pictureEdit7.EditValue = ((object)(resources.GetObject("pictureEdit7.EditValue")));
+            this.pictureEdit7.Location = new System.Drawing.Point(775, 25);
+            this.pictureEdit7.Name = "pictureEdit7";
+            this.pictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit7.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit7.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit7.Size = new System.Drawing.Size(136, 127);
+            this.pictureEdit7.TabIndex = 2;
+            // 
+            // pictureEdit6
+            // 
+            this.pictureEdit6.EditValue = ((object)(resources.GetObject("pictureEdit6.EditValue")));
+            this.pictureEdit6.Location = new System.Drawing.Point(111, 25);
+            this.pictureEdit6.Name = "pictureEdit6";
+            this.pictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit6.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit6.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit6.Size = new System.Drawing.Size(136, 127);
+            this.pictureEdit6.TabIndex = 1;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.Maroon;
+            this.simpleButton1.Appearance.BorderColor = System.Drawing.Color.Black;
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseBackColor = true;
+            this.simpleButton1.Appearance.Options.UseBorderColor = true;
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(333, 157);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(360, 76);
+            this.simpleButton1.TabIndex = 0;
+            this.simpleButton1.Text = "Verileri Yedekle ve Bilgilendir";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
             // lblGuvenlik
             // 
             this.lblGuvenlik.AutoSize = true;
@@ -1167,7 +1193,7 @@
             this.btnAyarlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.btnAyarlar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAyarlar.ForeColor = System.Drawing.Color.White;
-            this.btnAyarlar.Location = new System.Drawing.Point(12, 218);
+            this.btnAyarlar.Location = new System.Drawing.Point(12, 499);
             this.btnAyarlar.Name = "btnAyarlar";
             this.btnAyarlar.Size = new System.Drawing.Size(126, 37);
             this.btnAyarlar.TabIndex = 8;
@@ -1180,7 +1206,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(226, 542);
+            this.button1.Location = new System.Drawing.Point(1125, 542);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 37);
             this.button1.TabIndex = 9;
@@ -1212,62 +1238,6 @@
             this.pictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pictureEdit2.Size = new System.Drawing.Size(156, 143);
             this.pictureEdit2.TabIndex = 13;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
-            this.tabPage1.Controls.Add(this.pictureEdit7);
-            this.tabPage1.Controls.Add(this.pictureEdit6);
-            this.tabPage1.Controls.Add(this.simpleButton1);
-            this.tabPage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.tabPage1.Location = new System.Drawing.Point(4, 36);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1017, 405);
-            this.tabPage1.TabIndex = 7;
-            this.tabPage1.Text = "AFET";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.Maroon;
-            this.simpleButton1.Appearance.BorderColor = System.Drawing.Color.Black;
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.simpleButton1.Appearance.Options.UseBackColor = true;
-            this.simpleButton1.Appearance.Options.UseBorderColor = true;
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(333, 157);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(360, 76);
-            this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "Verileri Yedekle ve Bilgilendir";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
-            // 
-            // pictureEdit6
-            // 
-            this.pictureEdit6.EditValue = ((object)(resources.GetObject("pictureEdit6.EditValue")));
-            this.pictureEdit6.Location = new System.Drawing.Point(111, 25);
-            this.pictureEdit6.Name = "pictureEdit6";
-            this.pictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit6.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit6.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit6.Size = new System.Drawing.Size(136, 127);
-            this.pictureEdit6.TabIndex = 1;
-            // 
-            // pictureEdit7
-            // 
-            this.pictureEdit7.EditValue = ((object)(resources.GetObject("pictureEdit7.EditValue")));
-            this.pictureEdit7.Location = new System.Drawing.Point(775, 25);
-            this.pictureEdit7.Name = "pictureEdit7";
-            this.pictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit7.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit7.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit7.Size = new System.Drawing.Size(136, 127);
-            this.pictureEdit7.TabIndex = 2;
             // 
             // yoneticics
             // 
@@ -1325,11 +1295,11 @@
             this.panel7.PerformLayout();
             this.tabDuyuruOlustur.ResumeLayout(false);
             this.tabDuyuruOlustur.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
-            this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1369,7 +1339,6 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label lblGuvenlik;
-        private System.Windows.Forms.Button btnFaturaOlustur;
         private System.Windows.Forms.ListBox lbMesaj;
         private DevExpress.XtraEditors.PictureEdit pictureEdit2;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
@@ -1407,7 +1376,6 @@
         private DevExpress.XtraEditors.PictureEdit pictureEdit4;
         private System.Windows.Forms.Button btnGuncel;
         private System.Windows.Forms.Button btnSakinEk;
-        private System.Windows.Forms.Button btnSakinSil;
         private DevExpress.XtraEditors.PictureEdit pictureEdit5;
         private System.Windows.Forms.Button btnYayin;
         private DevExpress.XtraEditors.PanelControl panelControl10;

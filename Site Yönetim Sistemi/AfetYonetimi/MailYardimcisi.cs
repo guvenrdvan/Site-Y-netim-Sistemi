@@ -12,11 +12,11 @@ namespace Site_Yönetim_Sistemi.AfetYonetimi
 {
     public static class MailYardimcisi
     {
-        private static readonly string smtpServer = "mt-air.guzelhosting.com";
+        private static readonly string smtpServer = "-----";
         private static readonly int smtpPort = 587;
         private static readonly bool enableSsl = true;
-        private static readonly string smtpUsername = "afetbilgi@xyzapps.net";
-        private static readonly string smtpPassword = "afetbilgi2024";
+        private static readonly string smtpUsername = "-------";
+        private static readonly string smtpPassword = "-------";
         private static readonly List<string> toEmails = new List<string> 
         {
             "guvnrdvan@gmail.com",
